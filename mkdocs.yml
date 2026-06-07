@@ -1,4 +1,6 @@
 site_name: Awesome Java & Kotlin
+site_description: Curated Java and Kotlin resourc
+site_url: https://bsmahi.github.io/awesome-java-kotlin/
 theme:
   name: material
 
