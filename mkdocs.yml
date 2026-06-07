@@ -1,0 +1,14 @@
+site_name: Awesome Java & Kotlin
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Java: java/index.md
+  - Spring: spring/index.md
+  - Testing: testing/index.md
+  - Build Tools: build-tools/index.md
+  - Cloud: cloud/index.md
+  - AI: ai/index.md
+  - Kotlin: kotlin/index.md
+  - JVM: jvm/index.md
