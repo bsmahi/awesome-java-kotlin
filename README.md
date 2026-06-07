@@ -24,7 +24,4 @@ Discover Kotlin documentation, tutorials, libraries, and JVM ecosystem resources
 
 ---
 
-## 💡 Optional (Highly Recommended)
-
-```markdown
-![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
+![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen?style=flat)
