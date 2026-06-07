@@ -1,7 +1,7 @@
 # Awesome Java & Kotlin
 A curated collection of Java & Kotlin resources, tutorials, frameworks, libraries, tools, interview questions, and best practices for developers at every level.
 
-## Java Resources
+## ☕ Java Resources
 
 - **[Learn.java](https://learn.java)** - Official Java learning platform for beginners, students, and teachers featuring tutorials, interactive exercises, projects, and a Java Playground
 
