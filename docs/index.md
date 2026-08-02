@@ -6,6 +6,12 @@ A curated collection of **Java, Kotlin, and JVM ecosystem resources** including 
 
 ## 🚀 Explore Categories
 
+### ☕ AI Resources
+
+Explore essential Generative AI concepts, including large language models, prompt engineering, RAG, AI agents, evaluation, and responsible AI.
+
+➡️ **[Browse AI Resources](ai/)**
+
 ### ☕ Java Resources
 Core Java concepts, collections, streams, concurrency, JVM, and more.
 
