@@ -34,11 +34,10 @@ Generative AI is moving quickly. Instead of trying to read everything, start wit
 ## 🧠 Foundations: Machine Learning and Generative AI
 
 - [Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course){:target="_blank" rel="noopener noreferrer"}
-
   **By Google**
 
   A practical introduction to machine learning, including neural networks, embeddings, model evaluation, and an introduction to large language models.
-  
+
 - [What Is Machine Learning?](https://developers.google.com/machine-learning/intro-to-ml/what-is-ml)  
   **By Google**  
   A beginner-friendly explanation of machine learning and the role Generative AI plays within the broader AI ecosystem.
