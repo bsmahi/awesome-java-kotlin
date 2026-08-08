@@ -21,6 +21,11 @@ Discover Kotlin documentation, tutorials, libraries, and JVM ecosystem resources
 
 ➡️ **[Browse Kotlin Resources](./docs/kotlin/index.md)**
 
+### 🤖 AI Resources
+Learn about Generative AI foundations, RAG, AI agents, and building AI-powered apps with Spring AI.
+
+➡️ **[Browse AI Resources](./docs/ai/index.md)**
+
 
 ---
 
