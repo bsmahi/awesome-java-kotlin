@@ -638,26 +638,26 @@
 <h3 id="dependency-injection"><strong>Dependency Injection</strong></h3>
 <p><em>Dependency Injection</em> is an important design principle. In the context of <strong>Spring AI</strong>, you can understand it like this:</p>
 <p>Instead of creating AI components yourself:</p>
-<pre><code class="language-java">ChatModel chatmodel = new OpenAiChatModel(...);
-</code></pre>
-<p>Spring can provide the required components to your class:</p>
-<pre><code class="language-java">@Service
-public class PaymentService {
-   private final ChatModel chatModel;
-
-   public PaymentService(ChatModel chatModel) {
-      this.chatModel = chatModel;
-   }
-}
-</code></pre>
+<p><div class="highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">ChatModel</span><span class="w"> </span><span class="n">chatmodel</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">OpenAiChatModel</span><span class="p">(...);</span>
+</span></code></pre></div>
+Spring can provide the required components to your class:</p>
+<div class="highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nd">@Service</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">PaymentService</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">   </span><span class="kd">private</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">ChatModel</span><span class="w"> </span><span class="n">chatModel</span><span class="p">;</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">   </span><span class="kd">public</span><span class="w"> </span><span class="nf">PaymentService</span><span class="p">(</span><span class="n">ChatModel</span><span class="w"> </span><span class="n">chatModel</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">      </span><span class="k">this</span><span class="p">.</span><span class="na">chatModel</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">chatModel</span><span class="p">;</span>
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">   </span><span class="p">}</span>
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="p">}</span>
+</span></code></pre></div>
 <p>Here:</p>
-<pre><code>Spring → creates and configures → ChatModel → injects → PaymentService
-</code></pre>
+<div class="highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>Spring → creates and configures → ChatModel → injects → PaymentService
+</span></code></pre></div>
 <p>Your PaymentService doesn't need to know <strong>how</strong> the <code>ChatModel</code> was created.</p>
 <h3 id="why-is-this-useful-for-ai"><strong>Why is this useful for AI?</strong></h3>
 <p>Suppose your application uses an Amazon Bedrock model today:</p>
-<pre><code>PaymentService → ChatModel → Amazon Bedrock
-</code></pre>
+<div class="highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>PaymentService → ChatModel → Amazon Bedrock
+</span></code></pre></div>
 <p>Later, you could configure another supported model/provider like Gemini, Ollama, Mistral or OpenAI.</p>
 <p>The business logic can continue working with the <code>ChatModel</code> abstraction rather than being tightly coupled to the provider</p>
 <p>That's where <strong>Dependency Injection + Portability</strong> work nicely together</p>
@@ -689,13 +689,13 @@ public class PaymentService {
 <p>Use normal Java classes to represent your application data and logic:</p>
 </blockquote>
 <p>For example:</p>
-<pre><code class="language-java">public class Payment {
-
-  private double accountBalance;
-  private String paymentStatus;
-
-}
-</code></pre>
+<div class="highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">Payment</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="w">  </span><span class="kd">private</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="n">accountBalance</span><span class="p">;</span>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="w">  </span><span class="kd">private</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="n">paymentStatus</span><span class="p">;</span>
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>
+</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="p">}</span>
+</span></code></pre></div>
 <p>Spring's philosophy is that your business logic should not have depended heavily on the framework. Spring AI follows the same idea.</p>
 <h3 id="how-the-four-principles-fit-together">How the four principles fit together</h3>
 <p>You can remember the Spring AI philosophy like this:</p>
@@ -725,7 +725,7 @@ public class PaymentService {
 </tr>
 </tbody>
 </table>
-<pre><code>             Spring AI Application
+<div class="highlight"><pre><span></span><code>             Spring AI Application
                      │
       ┌──────────────┼──────────────┐
       │              │              │
@@ -741,7 +741,7 @@ Switch AI model   Separate parts   Simple Java
                     │
                     ▼
              Your Application
-</code></pre>
+</code></pre></div>
 <p>In a nutshell, </p>
 <p><em><strong>Spring AI</strong></em> brings the familiar Spring way of developing applications into the AI world. It allows Java/Kotlin developers to build AI applications using modular components, simple Java/Kotlin objects, and APIs that make it easier to switch between different AI providers and technologies.</p>
 <blockquote>
