@@ -22,7 +22,7 @@ Spring AI brings these same ideas into AI development/engineering.
 
 ![springai.png](images/springai.png)
 
-### Dependency Injection
+### **Dependency Injection**
 
 _Dependency Injection_ is an important design principle. In the context of **Spring AI**, you can understand it like this:
 
@@ -52,7 +52,7 @@ Spring → creates and configures → ChatModel → injects → PaymentService
 
 Your PaymentService doesn't need to know **how** the `ChatModel` was created.
 
-### Why is this useful for AI?
+### **Why is this useful for AI?**
 
 Suppose your application uses an Amazon Bedrock model today:
 
@@ -66,7 +66,7 @@ The business logic can continue working with the `ChatModel` abstraction rather 
 
 That's where **Dependency Injection + Portability** work nicely together
 
-### Modularity Design
+### **Modularity Design**
 
 Achieving modularity by separating the application into different components instead of putting everything into one huge AI application.
 
@@ -87,7 +87,7 @@ Each part has a specific responsibility, and this makes the application easier t
 - Replace Components
 - Maintain
 
-### Portability
+### **Portability**
 When it comes to **portability**, for example, you might be using **Amazon Bedrock** today, but tomorrow, if you want to switch to another model provider, your application code doesn’t need to be completely rewritten.
 
 Your Application → Spring AI → Amazon Bedrock
@@ -96,7 +96,7 @@ Your Application → Spring AI → OpenAI/Google ADK/Mistral/Ollama
 
 So, Spring AI tries to keep your application code independent of the particular AI Model Provider.
 
-### Using Plain Old Java Object (POJO's) as the building blocks 
+### **Using Plain Old Java Object (POJO's) as the building blocks** 
 
 In simple terms:
 
