@@ -146,3 +146,31 @@ You can remember the Spring AI philosophy like this:
 In a nutshell, 
 
 _**Spring AI**_ brings the familiar Spring way of developing applications into the AI world. It allows Java/Kotlin developers to build AI applications using modular components, simple Java/Kotlin objects, and APIs that make it easier to switch between different AI providers and technologies.
+
+> Spring AI helps your application connect your company's data and business APIs with AI models
+
+**Let's break it down**
+
+Imagine you have a **Payment Service** in your application
+
+You have three important things:
+
+1. **Enterprise Data:** Customer data, Transaction data, Product data
+2. **Enterprise APIs:** Payment API, Order API, Account API
+3. **AI Models:** Amazon Bedrock, Azure OpenAPI, Google Gemini, OpenAI, etc.,
+
+**How do we glue these and make it three work together?**
+
+### 1. Enterprise Data
+Your company already has a lot of data:
+
+- Customer Information
+- Payment transactions
+- Orders
+- Product Information
+- Documents
+- Database records
+
+Spring AI can help your AI application access and use this data
+
+
