@@ -30,8 +30,8 @@ markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
-      pygments_style: material
-        - pymdownx.superfences
+  - pymdownx.superfences
+  
 
 nav:
   - Home: index.md
