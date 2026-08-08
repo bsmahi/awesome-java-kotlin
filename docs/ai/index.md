@@ -31,17 +31,27 @@ Generative AI is moving quickly. Instead of trying to read everything, start wit
 
 ---
 
+## 📖 AI Terminology
+
+- [AI Dictionary](ai-dictionary.md)
+  A simple guide to understanding common AI terms like LLMs, RAG, Tokens, and Hallucinations.
+
+---
+
 ## 🧠 Foundations: Machine Learning and Generative AI
 
 - [Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course){:target="_blank" rel="noopener noreferrer"}
+  
   **By Google**
   A practical introduction to machine learning, including neural networks, embeddings, model evaluation, and an introduction to large language models.
 
-- [What Is Machine Learning?](https://developers.google.com/machine-learning/intro-to-ml/what-is-ml)  
+- [What Is Machine Learning?](https://developers.google.com/machine-learning/intro-to-ml/what-is-ml){:target="_blank" rel="noopener noreferrer"}
+  
   **By Google**  
   A beginner-friendly explanation of machine learning and the role Generative AI plays within the broader AI ecosystem.
 
-- [Practical Deep Learning for Coders](https://course.fast.ai/)  
+- [Practical Deep Learning for Coders](https://course.fast.ai/){:target="_blank" rel="noopener noreferrer"} 
+  
   **By fast.ai**  
   A free, hands-on deep learning course for people with basic programming experience. It is ideal for learners who want to move beyond theory and build real models.
 
@@ -49,15 +59,18 @@ Generative AI is moving quickly. Instead of trying to read everything, start wit
 
 ## 💬 Large Language Models and Transformers
 
-- [Introduction to Large Language Models](https://developers.google.com/machine-learning/crash-course/llm)  
+- [Introduction to Large Language Models](https://developers.google.com/machine-learning/crash-course/llm){:target="_blank" rel="noopener noreferrer"}
+
   **By Google**  
   Learn the core ideas behind LLMs: tokens, context, attention, transformers, fine-tuning, and common limitations.
 
-- [The Hugging Face LLM Course](https://huggingface.co/learn/llm-course/chapter1/1)  
+- [The Hugging Face LLM Course](https://huggingface.co/learn/llm-course/chapter1/1){:target="_blank" rel="noopener noreferrer"}
+ 
   **By Hugging Face**  
   A free technical course covering transformers, tokenizers, datasets, fine-tuning, and modern LLM workflows using Python.
 
-- [Attention Is All You Need](https://research.google/pubs/attention-is-all-you-need/)  
+- [Attention Is All You Need](https://research.google/pubs/attention-is-all-you-need/){:target="_blank" rel="noopener noreferrer"} 
+  
   **By Vaswani et al.**  
   The foundational research paper that introduced the Transformer architecture behind many modern language models.
 
@@ -65,11 +78,13 @@ Generative AI is moving quickly. Instead of trying to read everything, start wit
 
 ## ✍️ Prompt and Context Engineering
 
-- [Prompt Engineering Guide](https://www.promptingguide.ai/)  
+- [Prompt Engineering Guide](https://www.promptingguide.ai/){:target="_blank" rel="noopener noreferrer"}
+  
   **By DAIR.AI**  
   A structured guide to prompting techniques, including zero-shot prompting, few-shot prompting, chain-of-thought, retrieval, and agents.
 
-- [Prompt Engineering Whitepaper](https://www.kaggle.com/whitepaper-prompt-engineering)  
+- [Prompt Engineering Whitepaper](https://www.kaggle.com/whitepaper-prompt-engineering){:target="_blank" rel="noopener noreferrer"}
+  
   **By Google / Kaggle**  
   A practical resource for learning how to write prompts that are clear, structured, and reliable.
 
@@ -79,11 +94,13 @@ Generative AI is moving quickly. Instead of trying to read everything, start wit
 
 ## 🔍 Retrieval-Augmented Generation (RAG)
 
-- [What Is Retrieval-Augmented Generation?](https://aws.amazon.com/what-is/retrieval-augmented-generation/)  
+- [What Is Retrieval-Augmented Generation?](https://aws.amazon.com/what-is/retrieval-augmented-generation/){:target="_blank" rel="noopener noreferrer"}
+  
   **By AWS**  
   A useful introduction to RAG: a pattern that lets AI systems answer questions using external documents and trusted knowledge sources.
 
-- [What Is Agentic RAG?](https://weaviate.io/blog/what-is-agentic-rag)  
+- [What Is Agentic RAG?](https://weaviate.io/blog/what-is-agentic-rag){:target="_blank" rel="noopener noreferrer"}
+ 
   **By Weaviate**  
   An introduction to more advanced RAG systems, where AI can decide how to search, retrieve, validate, and use information.
 
@@ -101,30 +118,40 @@ Generative AI is moving quickly. Instead of trying to read everything, start wit
 
 ## 🤖 AI Agents
 
-- [A Practical Guide to Building Agents](https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf)  
+- [A Practical Guide to Building Agents](https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf){:target="_blank" rel="noopener noreferrer"} 
+  
   **By OpenAI**  
   A practical guide to understanding when AI agents are useful, how they use tools, and how to design reliable workflows.
 
-- [Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents)  
+- [Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents){:target="_blank" rel="noopener noreferrer"} 
+
   **By Anthropic**  
   A thoughtful guide to agent architecture, workflow design, tool usage, and choosing the right level of complexity.
 
-- [Introduction to AI Agents](https://huggingface.co/learn/agents-course/unit1/what-are-llms)  
+- [Introduction to AI Agents](https://huggingface.co/learn/agents-course/unit1/what-are-llms){:target="_blank" rel="noopener noreferrer"} 
+  
   **By Hugging Face**  
   Learn how LLMs act as the reasoning layer behind AI agents that can plan, use tools, and complete multi-step tasks.
 
 ---
+
+# Agentic Frameworks
 
 ## 🍃 Spring AI Resources
 
 - [Explore Spring AI](frameworks/spring-ai.md)
   A guide to building AI-powered applications using Java, Kotlin, and Spring principles such as dependency injection, modularity, and portability.
 
+## Kotlin AI (Koog) Resources
+
+## Strands Agents Resources
+
 ---
 
 ## 🧪 Evaluation and Reliability
 
-- [LLM Evaluation Metrics: The Ultimate Guide](https://www.confident-ai.com/blog/llm-evaluation-metrics-everything-you-need-for-llm-evaluation)  
+- [LLM Evaluation Metrics: The Ultimate Guide](https://www.confident-ai.com/blog/llm-evaluation-metrics-everything-you-need-for-llm-evaluation){:target="_blank" rel="noopener noreferrer"} 
+
   **By Confident AI**  
   Learn how to measure quality, relevance, faithfulness, safety, and reliability in LLM applications.
 
@@ -149,7 +176,8 @@ Generative AI can create much more than text:
 - **Video** — video generation, editing, and avatars
 - **Documents** — summarization, extraction, and question answering
 
-- [Generative Adversarial Networks Course](https://developers.google.com/machine-learning/gan)  
+- [Generative Adversarial Networks Course](https://developers.google.com/machine-learning/gan){:target="_blank" rel="noopener noreferrer"}  
+  
   **By Google**  
   Learn how GANs generate realistic images through competition between a generator and a discriminator.
 
