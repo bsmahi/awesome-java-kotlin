@@ -624,7 +624,7 @@
 </ul>
 <p>Spring AI brings these same ideas into AI development/engineering.</p>
 <p><img alt="springai.png" src="../images/springai.png" /></p>
-<h3 id="dependency-injection">Dependency Injection</h3>
+<h3 id="dependency-injection"><strong>Dependency Injection</strong></h3>
 <p><em>Dependency Injection</em> is an important design principle. In the context of <strong>Spring AI</strong>, you can understand it like this:</p>
 <p>Instead of creating AI components yourself:</p>
 <pre><code class="language-java">ChatModel chatmodel = new OpenAiChatModel(...);
@@ -643,14 +643,14 @@ public class PaymentService {
 <pre><code>Spring → creates and configures → ChatModel → injects → PaymentService
 </code></pre>
 <p>Your PaymentService doesn't need to know <strong>how</strong> the <code>ChatModel</code> was created.</p>
-<h3 id="why-is-this-useful-for-ai">Why is this useful for AI?</h3>
+<h3 id="why-is-this-useful-for-ai"><strong>Why is this useful for AI?</strong></h3>
 <p>Suppose your application uses an Amazon Bedrock model today:</p>
 <pre><code>PaymentService → ChatModel → Amazon Bedrock
 </code></pre>
 <p>Later, you could configure another supported model/provider like Gemini, Ollama, Mistral or OpenAI.</p>
 <p>The business logic can continue working with the <code>ChatModel</code> abstraction rather than being tightly coupled to the provider</p>
 <p>That's where <strong>Dependency Injection + Portability</strong> work nicely together</p>
-<h3 id="modularity-design">Modularity Design</h3>
+<h3 id="modularity-design"><strong>Modularity Design</strong></h3>
 <p>Achieving modularity by separating the application into different components instead of putting everything into one huge AI application.</p>
 <p>We can create separate components such as:</p>
 <p>AI Application
@@ -667,12 +667,12 @@ public class PaymentService {
 <li>Replace Components</li>
 <li>Maintain</li>
 </ul>
-<h3 id="portability">Portability</h3>
+<h3 id="portability"><strong>Portability</strong></h3>
 <p>When it comes to <strong>portability</strong>, for example, you might be using <strong>Amazon Bedrock</strong> today, but tomorrow, if you want to switch to another model provider, your application code doesn’t need to be completely rewritten.</p>
 <p>Your Application → Spring AI → Amazon Bedrock</p>
 <p>Your Application → Spring AI → OpenAI/Google ADK/Mistral/Ollama</p>
 <p>So, Spring AI tries to keep your application code independent of the particular AI Model Provider.</p>
-<h3 id="using-plain-old-java-object-pojos-as-the-building-blocks">Using Plain Old Java Object (POJO's) as the building blocks</h3>
+<h3 id="using-plain-old-java-object-pojos-as-the-building-blocks"><strong>Using Plain Old Java Object (POJO's) as the building blocks</strong></h3>
 <p>In simple terms:</p>
 <blockquote>
 <p>Use normal Java classes to represent your application data and logic:</p>
