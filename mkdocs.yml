@@ -27,6 +27,11 @@ theme:
 
 markdown_extensions:
   - attr_list
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_style: material
+        - pymdownx.superfences
 
 nav:
   - Home: index.md
