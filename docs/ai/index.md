@@ -115,6 +115,13 @@ Generative AI is moving quickly. Instead of trying to read everything, start wit
 
 ---
 
+## 🍃 Spring AI Resources
+
+- [Explore Spring AI](frameworks/spring-ai.md)
+  A guide to building AI-powered applications using Java, Kotlin, and Spring principles such as dependency injection, modularity, and portability.
+
+---
+
 ## 🧪 Evaluation and Reliability
 
 - [LLM Evaluation Metrics: The Ultimate Guide](https://www.confident-ai.com/blog/llm-evaluation-metrics-everything-you-need-for-llm-evaluation)  
