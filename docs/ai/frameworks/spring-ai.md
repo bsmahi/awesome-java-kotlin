@@ -20,7 +20,7 @@ Spring has always focused on principles like:
 
 Spring AI brings these same ideas into AI development/engineering.
 
-![springai.png](../../../site/assets/images/springai.png)
+![springai.png](images/springai.png)
 
 ### Dependency Injection
 
