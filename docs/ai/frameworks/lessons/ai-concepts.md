@@ -76,3 +76,57 @@ Text Prompt → Image Generation Model → Generated Image
 ```
 
 **AI model = A trained algorithm that takes some type of input, processes what it has learned, and produces an output.**
+
+### 1. AI models can work with different types of data
+
+Spring AI supports models that can work with:
+
+```
+Input              Output
+──────────────────────────────
+Text       ──────► Text
+Text       ──────► Image
+Text       ──────► Audio
+Audio      ──────► Text
+Image      ──────► Text
+```
+
+For example
+
+```
+"Create an image of a futuristic city"
+              ↓
+        AI Model
+              ↓
+        🖼️ Image
+```
+
+So AI isn't limited to `text → text`.
+
+### 2. What are Embeddings?
+
+An embedding converts information such as text into numbers that represent its meaning.
+
+For example:
+
+```
+"Spring AI is a Java framework"
+              ↓
+        Embedding Model
+              ↓
+[0.21, -0.45, 0.78, 0.12, ...]
+
+```
+These numbers are called an **embedding vector**
+
+The important thing is:
+
+> The numbers capture the meaning and relationships of the original information
+
+This allows applications to do things like:
+- Semantic search
+- RAG
+- Document search
+- Finding similar content
+- Recommendation systems
+- Knowledge-base applications
