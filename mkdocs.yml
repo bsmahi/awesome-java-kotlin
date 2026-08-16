@@ -24,6 +24,14 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
+  features:
+    - navigation.footer
+  extra:
+    social:
+      - icon: fontawesome/brands/github
+        link: https://github.com/bsmahi/awesome-java-kotlin
+      - icon: fontawesome/brands/linkedin
+        link: https://linkedin.com/in/mahendra-rao-bandaru-8754432b
 
 markdown_extensions:
   - attr_list
