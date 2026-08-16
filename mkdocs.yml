@@ -4,9 +4,11 @@ site_url: https://bsmahi.github.io/awesome-java-kotlin/
 
 theme:
   name: material
+
   font:
     text: Roboto
     code: JetBrains Mono
+
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
@@ -24,22 +26,30 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
+
   features:
     - navigation.footer
-  extra:
-    social:
-      - icon: fontawesome/brands/github
-        link: https://github.com/bsmahi/awesome-java-kotlin
-      - icon: fontawesome/brands/linkedin
-        link: https://linkedin.com/in/mahendra-rao-bandaru-8754432b
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/bsmahi/awesome-java-kotlin
+      name: GitHub Repository
+
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/mahendra-rao-bandaru-8754432b
+      name: Connect on LinkedIn
+
+copyright: Copyright &copy; 2016 - 2026 Mahendra Rao B
 
 markdown_extensions:
   - attr_list
+
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
-  - pymdownx.superfences
 
+  - pymdownx.superfences
 
 nav:
   - Home: index.md
