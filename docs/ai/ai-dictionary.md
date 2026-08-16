@@ -63,6 +63,7 @@ An AI system designed to not just talk, but to take actions—like searching the
 A setting that controls the "creativity" or randomness of an AI's output. Language models borrowed this term from physics (**[Boltzmann Distribution](#boltzmann-distribution)**), where it controls how often a system visits higher-energy states. Lowering temperature sharpens the distribution around the best-scoring word (making the model "colder" and more predictable), while raising it flattens the distribution so lower-scoring words get more chances (making the model "hotter" and more exploratory).
 
 ---
+![llmvsragvsaiagentsvsmcp.png](frameworks/images/llmvsragvsaiagentsvsmcp.png)
 
 ## 🛡️ Ethics & Safety
 
