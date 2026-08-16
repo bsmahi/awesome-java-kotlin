@@ -1,3 +1,10 @@
+# Prerequisites 
+
+Before diving into Strands Agents, it is recommended to have a basic understanding of Python for AI.
+
+- [Python for AI](https://python.datalumina.com)
+- [Python for AI YouTube](https://www.youtube.com/watch?v=ygXn5nV5qFc)
+
 # 📚 Strands Agents SDK: Complete Article & Blog Series Roadmap
 
 ---
