@@ -146,7 +146,7 @@ Generative AI is moving quickly. Instead of trying to read everything, start wit
 
 ## Explore Strands Agents 
 
-Strands Agents is an open-source agentic framework from AWS—let's explore what it has to offer!.
+- Strands Agents is an open-source agentic framework from AWS—let's explore what it has to offer!.
 [Strands Agents](frameworks/strandsagents/index.md)
 ---
 
