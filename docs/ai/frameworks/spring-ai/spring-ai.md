@@ -20,7 +20,7 @@ Spring has always focused on principles like:
 
 Spring AI brings these same ideas into AI development/engineering.
 
-![springai.png](images/springai.png)
+![springai.png](../images/springai.png)
 
 ### **Dependency Injection**
 
@@ -241,7 +241,7 @@ _**Enterprise data → Spring AI (Bridge) → AI Models → Enterprise APIs**_
 
 ### Spring AI Features
 
-![springaifeatures.png](images/springaifeatures.png)
+![springaifeatures.png](../images/springaifeatures.png)
 
 - **Broad AI Provider Support:** Connects with leading AI ecosystems (OpenAI, Anthropic, Google, Amazon, Microsoft, Ollama) using consistent, portable APIs for both instant and streaming responses, while keeping access to provider-specific settings.
 - **Comprehensive Model Capabilities:** Handles a wide array of AI tasks, including text chat, text embeddings, image generation, audio transcription, text-to-speech, content moderation, and structured output (mapping AI responses directly to Java POJOs).
@@ -252,4 +252,4 @@ _**Enterprise data → Spring AI (Bridge) → AI Models → Enterprise APIs**_
 
 To start with understand some AI concepts here:
 
-- [AI Concepts](lessons/ai-concepts.md)
+- [AI Concepts](modules/ai-concepts.md)

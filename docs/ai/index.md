@@ -139,13 +139,15 @@ Generative AI is moving quickly. Instead of trying to read everything, start wit
 
 ## 🍃 Spring AI Resources
 
-- [Explore Spring AI](frameworks/spring-ai.md)
+- [Explore Spring AI](frameworks/spring-ai/spring-ai.md)
   A guide to building AI-powered applications using Java, Kotlin, and Spring principles such as dependency injection, modularity, and portability.
 
 ## Kotlin AI (Koog) Resources
 
-## Strands Agents Resources
+## Explore Strands Agents 
 
+Strands Agents is an open-source agentic framework from AWS—let's explore what it has to offer!.
+[Strands Agents](frameworks/strandsagents/index.md)
 ---
 
 ## 🧪 Evaluation and Reliability

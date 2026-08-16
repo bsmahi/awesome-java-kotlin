@@ -18,7 +18,7 @@ The output could be:
 - Predictions: predict something based on historical data
 - Video - generate or transform video
 
-![AIModels.png](../images/AIModels.png)
+![AIModels.png](../../images/AIModels.png)
 
 ## What are there different AI models?
 There isn't **one AI model that is good at everything**
